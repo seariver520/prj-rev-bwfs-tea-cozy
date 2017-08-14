@@ -1,0 +1,148 @@
+body {
+  background-color: black;
+  font-family:Helvetica;
+  font-size:  22px;
+  color:seashell;
+  opacity:0.9;
+  text-align: center;
+}
+
+header {
+  border-bottom:1px solid seashell;
+  display:flex;
+  height:69px;
+  position:fixed;
+  width:100%;
+  z-index:2;
+  background-color: black;
+  top:0px;
+}
+
+header img{
+  height:50px;
+  margin-left:10px;
+}
+
+header ul {
+  list-style: none;
+  display:inline-flex;
+  flex-grow:1;
+  justify-content: flex-end;
+  flex-wrap:wrap;
+  align-items: center;
+  margin-right:10px;
+}
+
+header ul li {
+  margin-left:10px;
+  margin-right:10px;
+  text-decoration: underline;
+}
+
+header ul li a {
+  color:seashell;
+}
+
+
+.body{
+  position:relative;
+  top:43px;
+  z-index: 1;
+}
+
+.mission {
+  height:700px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.center {
+  background-color: black;
+  vertical-align: middle;
+  position:relative;
+  top:300px;
+}
+/* Not sure why vertical align wasn't working so I used position property to adjust the position */
+
+.tea {
+  width:1000px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.title {
+ padding-top: 50px;
+}
+
+.boxes {
+  display: inline-flex;
+  flex-flow: wrap row;
+  width:1000px;
+  justify-content: center;
+}
+
+.box img {
+  height:200px;
+  width:300px;
+  margin:0px 30px 10px 0px;
+}
+
+.box p {
+  margin-top:auto;
+}
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height:500px;
+  width:1200px;
+  position: relative;
+  right:100px;
+}
+
+.content{
+  position: relative;
+  top:80px;
+}
+
+.content h2 {
+  margin-bottom:0;
+}
+
+.pieces {
+  display:flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.piece {
+  width:300px;
+  height:300px;
+  background-color: black;
+  margin-left:10px;
+  margin-right:10px;
+  display: flex;
+  flex-flow: column;
+  opacity:1;
+}
+
+footer{
+  position:relative;
+  top:130px;
+  right:75px;
+}
+
+.contact{
+  height:200px;
+  position:relative;
+  left:75px;
+}
+
+.copyright{
+  text-align:left;
+  position:relative;
+  left:20px;
+}
